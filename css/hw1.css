@@ -1,0 +1,192 @@
+body {
+    margin: 2%;
+    font-size: 112.5%;
+    font-family: sans-serif;
+    background-color: #73cdbb;
+}
+
+header {
+    margin-bottom: .3%;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #0492b1 0%, #73cdbb 100%);
+    background: -moz-linear-gradient(left, #0492b1 0%, #73cdbb 100%);
+    background: -o-linear-gradient(left, #0492b1 0%, #73cdbb 100%);
+    background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    border-radius: 5px 5px 0 0;
+    height: 27vh;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #1c1b4d;
+    font-variant: small-caps;
+}
+
+h2 {
+    color: #1c1b9f;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: rgba(166, 221, 255, 0.472);
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.74);
+    display: inline-block;
+    height: 80px;
+    border: 0;
+    outline: 0;
+}
+
+nav a {
+    color: #1c1b4d;
+    background: -webkit-linear-gradient(#0392b3 0%, #73cdbb 100%);
+    background: -moz-linear-gradient(#0392b3 0%, #73cdbb 100%);
+    background: -o-linear-gradient(#0392b3 0%, #73cdbb 100%);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    transition-property: background, border-radius, color;
+    transition-duration: 1s;
+    position: relative;
+    top: 32px;
+}
+
+aside a {
+    display: block;
+    width: 75%;
+    margin: 10% auto;
+}
+
+aside a img {
+    width: 100%;
+    border: solid 2px black;
+}
+
+.left {
+    margin-right: 0.3%;
+    display: inline-block;
+    width: 19.7%;
+    height: 150vh;
+    float: left;
+    background-color: #0492b1;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+}
+
+.right {
+    /* border-right: solid; */
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    height: 150vh;
+    background: -webkit-linear-gradient(right, #73cdbb 0%, #0191b3 100%);
+    background: -moz-linear-gradient(#73cdbb 0%, #0191b3 100%);
+    background: -o-linear-gradient(#73cdbb 0%, #0191b3 100%);
+    border-bottom-right-radius: 5px;
+}
+
+nav a:hover {
+    color: #007c00;
+    background: -webkit-linear-gradient(#ffffff99 0%, #7facd699 100%);
+    background: -moz-linear-gradient(#ffffff99 0%, #7facd699 100%);
+    background: -o-linear-gradient(#ffffff99 0%, #7facd699 100%);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.active {
+    color: #006599;
+    background: -webkit-linear-gradient(#007c00a8 0%, #65988c 50%, #146713 100%);
+    background: -moz-linear-gradient(#007c00a8 0%, #65988c 50%, #146713 100%);
+    background: -o-linear-gradient(#007c00a8 0%, #65988c 50%, #146713 100%);
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    box-shadow: 5px 5px 20px #0292b3;
+}
+
+table {
+    width: 90%;
+    /* height: 50vh; */
+    border: 3px solid #000000;
+    border-radius: 0 21px 0 21px;
+    border-spacing: 0;
+    text-align: center;
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.74);
+    transition-property: transform, box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    margin: 0 auto;
+    outline: 0;
+    font-size: .7em;
+}
+
+th {
+    color: #0642aC;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid black;
+}
+
+th:last-child {
+    border-radius: 0 20px 0 0;
+}
+
+th:nth-child(even) {
+    border-style: none solid solid solid;
+    border-width: 0 1px 2px 1px;
+    border-color: #000;
+}
+
+th:first-child,
+td:first-child {
+    text-align: start;
+    padding: 0 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #06425C;
+    color: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background-color: #F2F2F2;
+    color: #06425C;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 20px;
+}
+
+td {
+    opacity: .7;
+    height: 40px;
+    font-size: 100%;
+    transition-property: background, color, transform;
+    transition-duration: .2s, .8s, .5s;
+    transition-timing-function: ease-in-out;
+}
+
+td:active {
+    background-color: lightgreen;
+    color: #06425C;
+    transform: translate(0, -10px);
+}
+
+td:hover {
+    opacity: 1;
+}
+
+table:hover {
+    transform: translate(10px, 5px);
+    box-shadow: 0 0 0 #000000;
+}
