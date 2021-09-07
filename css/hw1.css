@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    margin-bottom: .3%;
     text-align: center;
     background: -webkit-linear-gradient(left, #0492b1 0%, #73cdbb 100%);
     background: -moz-linear-gradient(left, #0492b1 0%, #73cdbb 100%);
@@ -17,7 +16,7 @@ header {
     padding-bottom: 25px;
     border-radius: 5px 5px 0 0;
     height: 27vh;
-    overflow: auto;
+    overflow: hidden;
 }
 
 h1 {
